@@ -1,0 +1,2 @@
+# Intro-To-Programming-Nanodegree
+# Intro-To-Programming_Udacity-Nanodegree About NanoDegree &lt;/br> The NanoDegree Focuses on the foundational skills that all programmers use whether they program mobile apps, create web pages, or analyze data. Ideal for beginners who want to learn new skills, make informed choices about career goals &lt;/br> &lt;/br> &lt;/br> IN THIS NANODEGREE U WILL LEARN ABOUT:&lt;/br> 1.HTML&lt;/br> 2.CSS&lt;/br> 3.PYTHON&lt;/br> 4.Video website in python&lt;/br> 5.Android learning&lt;/br> &lt;/br> &lt;/br> &lt;/br> &lt;/br>
