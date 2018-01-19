@@ -1,0 +1,77 @@
+li
+{
+  color: pink;
+}
+
+
+body
+{
+  border-style: dotted;
+  display: block;
+  background-image: url("1.png");
+  background-repeat: repeat;
+}
+
+
+h1
+{
+  color: rgb(80,10,100);
+  text-align: center;
+}
+
+
+h2
+{
+  color: rgb(255,255,0);
+}
+
+
+.abc
+{
+  border-color: black;
+  border-style: inset;
+  height: 100px;
+  width: 1500px;
+  background-color: powderblue;
+
+}
+
+
+h3
+{
+  color: yellow;
+}
+
+
+a:link
+{
+  color: purple;
+}
+
+
+h4
+{
+  color: pink;
+}
+
+
+.def
+{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+
+p
+{
+  font-size: 25px;
+  color: purple;
+}
+
+
+.container
+{
+  font-size: 25px;
+  text-decoration: inherit;
+  color: aqua;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/upstairs" />
+
+    <TextView
+        android:id="@+id/MyBusinessApp_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="My Business App"
+        android:textColor="#EEFF41"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/Name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MyBusinessApp_text_view"
+        android:layout_marginTop="30sp"
+        android:text="Name : Aggarwal Business "
+        android:textColor="#FFB300"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/Description_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name_text_view"
+        android:layout_marginTop="50sp"
+        android:text="Description : A Trusted And Well Know Business For Gold Lovers "
+        android:textColor="#CDDC39"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/Phone_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Description_text_view"
+        android:layout_marginTop="50sp"
+        android:text="Phone Number : 1234567890"
+        android:textColor="#00695C"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/Address_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Phone_text_view"
+        android:layout_marginTop="50sp"
+        android:text="Address : ShopNp=123,Southwest,Mumbai"
+        android:textColor="#18FFFF"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/Email_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Address_text_view"
+        android:layout_marginTop="50sp"
+        android:text="Email : aggarwalbrothers2@gmail.com"
+        android:textColor="#CFD8DC"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/Hours_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email_text_view"
+        android:layout_marginTop="50sp"
+        android:text="Working Hours : 9:00A.M. to 9:00P.M"
+        android:textColor="#FF7043"
+        android:textSize="22sp" />
+</RelativeLayout>
